@@ -14,7 +14,6 @@ The analysis is based on the **[Product Sales Dataset (2023-2024)](https://www.k
 
 * **Source:** Kaggle Public Dataset (Synthetic Retail Data)
 * **Volume:** 200,000 Records
-* **Modeling:** Transformed flat-file data into a Star Schema (Fact_Sales, Dim_Customers, Dim_Products, Dim_Date) to improve report performance.
 
 **Entity Relationship Diagram (ERD):**
 ![Data Model](DataModel.png)
@@ -43,16 +42,16 @@ Over the 2023-2024 period, the company generated **$142.4M in Revenue** and **$3
 * The East Region outperforms the South by **79%**, despite selling similar product mixes.
 * This discrepancy suggests either a lack of brand presence in the South or logistics issues preventing market penetration in states like Mississippi and Florida.
 
-### Electronics is the Volume Leader, but "Bedding" is the Hidden Gem
-* While "Electronics" is the top *Category* ($57.5M), the single highest-grossing *Sub-Category* is actually **Bedding** ($13.0M), beating out Laptops ($12.3M) and Smartphones ($10.9M).
-* Bedding products are out-earning high-tech items, likely due to consistent demand year-round compared to tech obsolescence.
+### Electronics is the Highest Earner, but Clothing & Apparel is the Volume Leader
+* While "Electronics" is the top *Category* ($57.5M) earner, the highest-grossing *Category* is **Clothing & Apparel** (62.31K units), beating out Electronics (51.22K units), and Home & Furniture (50.57K units).
+
 
 # Recommendations
 Based on the analysis, I recommend the following actions for the Sales Director:
 
-* Given the 300% revenue surge in Q4, logistics teams must ensure "Bedding" and "Electronics" stocks are fully replenished by September 30th to prevent stockouts during the critical holiday window.
+* Given the 300% revenue surge in Q4, logistics teams must ensure "Clothing & Apparel", "Electronics" and "Home & Furniture" stocks are fully replenished by September 30th to prevent stockouts during the critical holiday window.
 * Launch a targeted marketing campaign or a localized survey in the South Region to understand why market share is nearly half that of the East.
-* The "Wearable Accessories" sub-category is currently the lowest profit generator ($1.08M). Consider bundling these with high-performing Smartphones to increase their sell-through rate.
+* The "Accessories" category is currently the lowest profit generator ($10M). Consider bundling these with high-performing Smartphones to increase their sell-through rate.
 
 # Caveats & Assumptions
 * This dataset is synthetic. While it effectively mimics retail trends (like seasonality), certain real-world nuances—such as customer returns or supply chain delays—are not present, which may result in cleaner-than-average profit margins.
