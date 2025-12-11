@@ -33,7 +33,7 @@ Over the 2023-2024 period, the company generated **$142.4M in Revenue** and **$3
 ![Dashboard Overview](Dashboard.png)
 
 # Insights Deep Dive
-### Extreme Seasonality in Q4**
+### Extreme Seasonality in Q4
 * Revenue remains relatively flat between Q1 and Q3 (~$11M - $13M per quarter) but spikes aggressively in Q4 to over **$32M**.
 * Q4 alone accounts for nearly **45% of total annual revenue**, driven largely by "Electronics" and "Home & Furniture" purchases.
 * The company operates effectively as a "Holiday Business." Supply chain failures in October/November would be catastrophic, risking nearly half the year's revenue.
