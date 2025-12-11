@@ -16,7 +16,7 @@ The analysis is based on the **[Product Sales Dataset (2023-2024)](https://www.k
 * **Volume:** 200,000 Records
 
 **Entity Relationship Diagram (ERD):**
-![Data Model](DataModel.png)
+![Data Model](images/DataModel.png)
 
 # Executive Summary
 **Headline: Q4 Holiday Sales drive nearly 45% of annual revenue, while the East Region outperforms the South by 79%.**
@@ -29,7 +29,7 @@ Over the 2023-2024 period, the company generated **$142.4M in Revenue** and **$3
 * **Avg Order Value:** $712
 * **Top Category:** Electronics ($57.5M Revenue)
 
-![Dashboard Overview](Dashboard.png)
+![Dashboard Overview](images/Dashboard.png)
 
 # Insights Deep Dive
 ### Extreme Seasonality in Q4
@@ -37,13 +37,19 @@ Over the 2023-2024 period, the company generated **$142.4M in Revenue** and **$3
 * Q4 alone accounts for nearly **45% of total annual revenue**, driven largely by "Electronics" and "Home & Furniture" purchases.
 * The company operates effectively as a "Holiday Business." Supply chain failures in October/November would be catastrophic, risking nearly half the year's revenue.
 
+![Dashboard Overview](images/Seasonality-Q4.png)
+
 ### The "East vs. South" Disparity
 * The East Region is the dominant market, generating **$45M** in revenue. In contrast, the South Region lags significantly at **$25.1M**.
 * The East Region outperforms the South by **79%**, despite selling similar product mixes.
 * This discrepancy suggests either a lack of brand presence in the South or logistics issues preventing market penetration in states like Mississippi and Florida.
 
+![Dashboard Overview](images/Location.png)
+
 ### Electronics is the Highest Earner, but Clothing & Apparel is the Volume Leader
 * While "Electronics" is the top *Category* ($57.5M) earner, the highest-grossing *Category* is **Clothing & Apparel** (62.31K units), beating out Electronics (51.22K units), and Home & Furniture (50.57K units).
+
+![Dashboard Overview](images/Categories.png)
 
 
 # Recommendations
